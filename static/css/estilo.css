@@ -1,0 +1,40 @@
+body{
+    margin: 100;
+    padding: 200;
+    background: url(/static/imagen/libro.gif);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+    
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
